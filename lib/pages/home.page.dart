@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
   Widget _buildHireButton(BuildContext context) {
     return Positioned(
       left: -15.0,
-      top: MediaQuery.of(context).size.width - 60,
+      top: MediaQuery.of(context).size.width - 110,
       child: InkWell(
         child: Container(
           decoration: BoxDecoration(
@@ -87,11 +87,11 @@ class _HomePageState extends State<HomePage> {
 
   Widget _buildRestOfTheBody(BuildContext context) {
     return Positioned(
-      top: MediaQuery.of(context).size.width - 20.0,
+      top: MediaQuery.of(context).size.width - 70.0,
       child: Container(
         padding: EdgeInsets.only(left: 30.0),
         width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.width + 70,
         decoration: BoxDecoration(
             color: Colors.white, borderRadius: BorderRadius.circular(30.0)),
         child: Column(
